@@ -3,10 +3,11 @@
 int main()
 {
     Engine engine;
-
+    sf::Clock deltaClock;
     while (engine.running())
     {
-        engine.update();
+        sf::Time dt = deltaClock.restart();
+        engine.update(dt.asMilliseconds());
         engine.render();
     }
 

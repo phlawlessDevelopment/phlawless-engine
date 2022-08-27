@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build",
+  "command": "/usr/bin/g++  -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/entites -g -o CMakeFiles/phlawless-engine.dir/main.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp",
+  "file": "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp"
+},
+{
+  "directory": "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build",
+  "command": "/usr/bin/g++  -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/entites -g -o CMakeFiles/phlawless-engine.dir/source/core/Engine.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Engine.cpp",
+  "file": "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Engine.cpp"
+},
+{
+  "directory": "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build",
+  "command": "/usr/bin/g++  -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/entites -g -o CMakeFiles/phlawless-engine.dir/source/entities/Player.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/entities/Player.cpp",
+  "file": "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/entities/Player.cpp"
+}
+]

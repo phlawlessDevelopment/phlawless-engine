@@ -4,16 +4,18 @@ project(phlawless-engine)
 
 include_directories(
   "${PROJECT_BINARY_DIR}"
-  "${CMAKE_SOURCE_DIR}/source/header"
-  "${CMAKE_SOURCE_DIR}/source/cpp"
+  "${CMAKE_SOURCE_DIR}/source/core"
+  "${CMAKE_SOURCE_DIR}/source/entites"
   )
 
 # Define sources and executable
 set(EXECUTABLE_NAME "phlawless-engine")
 add_executable(${EXECUTABLE_NAME}
  main.cpp
- source/cpp/Engine.cpp
- source/header/Engine.h
+ source/core/Engine.cpp
+ source/core/Engine.h
+ source/entities/Player.h
+ source/entities/Player.cpp
  )
 
 
