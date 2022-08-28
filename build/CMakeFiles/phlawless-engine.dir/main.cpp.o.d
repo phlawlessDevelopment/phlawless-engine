@@ -1,7 +1,7 @@
 CMakeFiles/phlawless-engine.dir/main.cpp.o: \
  /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp \
  /usr/include/stdc-predef.h \
- /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Engine.h \
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Editor.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -240,4 +240,24 @@ CMakeFiles/phlawless-engine.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/../entities/Player.h
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui.h \
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/assert.h \
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML.h \
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML_export.h \
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/../scene/Scene.h \
+ /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
+ /usr/include/c++/11/bits/shared_ptr.h \
+ /usr/include/c++/11/bits/shared_ptr_base.h \
+ /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/ext/concurrence.h \
+ /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/../scene/Node.h \
+ /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/../scene/../components/Component.h

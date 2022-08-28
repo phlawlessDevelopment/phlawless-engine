@@ -1,14 +1,13 @@
-#include "Engine.h"
+#include "Editor.h"
 
 int main()
 {
-    Engine engine;
+    Editor editor;
     sf::Clock deltaClock;
-    while (engine.running())
+    while (editor.running())
     {
-        sf::Time dt = deltaClock.restart();
-        engine.update(dt.asMilliseconds());
-        engine.render();
+        editor.update(deltaClock);
+        editor.render();
     }
 
     return 0;

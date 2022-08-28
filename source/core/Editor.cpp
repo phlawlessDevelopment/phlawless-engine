@@ -1,31 +1,34 @@
-#include "Engine.h"
+#include "Editor.h"
 
 /* private functions */
-void Engine::initVariables()
+void Editor::initVariables()
 {
     this->window = nullptr;
 };
-void Engine::initWindow()
+void Editor::initWindow()
 {
-    this->window = new sf::RenderWindow(sf::VideoMode(800,600), "phlawless-engine");
+    this->window = new sf::RenderWindow(sf::VideoMode(800, 600), "phlawless-engine");
+    ImGui::SFML::Init(*this->window);
 };
 
 /* constructors */
-Engine::Engine()
+Editor::Editor()
 {
     this->initVariables();
     this->initWindow();
 };
 
-Engine::~Engine()
+Editor::~Editor()
 {
-    delete this->window;
+    // delete this->window;
+    ImGui::SFML::Shutdown();
 };
 
-void Engine::pollEvents()
-{
-    while (this->window->pollEvent(this->event))
+void Editor::pollEvents()
+{   
+    while (this->window->pollEvent(this->event) )
     {
+        ImGui::SFML::ProcessEvent(*this->window, this->event);
         switch (this->event.type)
         {
 
@@ -36,7 +39,7 @@ void Engine::pollEvents()
         case sf::Event::KeyPressed:
             if (this->event.key.code == sf::Keyboard::Escape)
                 window->close();
-            
+
             /* keyboard input*/
             if (this->event.key.code == sf::Keyboard::W)
                 this->inputs.up = true;
@@ -50,23 +53,32 @@ void Engine::pollEvents()
         }
     }
 }
+void Editor::updateScene()
+{
+    // this->scene.updateNodes();
+}
 
 /* public functions */
-void Engine::update(float delta)
+void Editor::update(sf::Clock deltaClock)
 {
     this->pollEvents();
-
-    this->inputs = Inputs();
+    ImGui::SFML::Update(*this->window, deltaClock.restart());
+    this->updateScene();
 }
-void Engine::render()
+void Editor::render()
 {
+    ImGui::ShowDemoWindow();
+    ImGui::Begin("Hello, world!");
+    ImGui::Button("Look at this pretty button");
+    ImGui::End();
     this->window->clear();
-    /* draw game objects */
+    ImGui::SFML::Render(*this->window);
+    // this->scene.renderNodes();
     this->window->display();
 }
 
 /* accessors */
-const bool Engine::running() const
+const bool Editor::running() const
 {
     return this->window->isOpen();
 }

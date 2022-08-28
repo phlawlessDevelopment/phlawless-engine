@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 26 22:13:24 2022
+# Make data base, printed on Sun Aug 28 13:26:08 2022
 
 # Variables
 
@@ -55,7 +55,7 @@ VSCODE_CODE_CACHE_PATH = /home/phalyce/.config/Code/CachedData/e4503b30fc78200f8
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.ICKPR1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.5VYHR1
 # default
 .LOADED := 
 # default
@@ -87,7 +87,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3908
+VSCODE_PID = 4756
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -95,7 +95,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/ph-lap:@/tmp/.ICE-unix/1146,unix/ph-lap:/tmp/.ICE-unix/1146
+SESSION_MANAGER = local/ph-lap:@/tmp/.ICE-unix/1192,unix/ph-lap:/tmp/.ICE-unix/1192
 # automatic
 *F = $(notdir $*)
 # environment
@@ -139,7 +139,7 @@ SNAP_USER_COMMON = /home/phalyce/snap/code/common
 # environment
 SNAP = /snap/code/105
 # environment
-INVOCATION_ID = ce8c53a4ef7d4f86bb601208485af426
+INVOCATION_ID = 78bc0535ffd24d068a7d41bc82ca582d
 # environment
 SNAP_REVISION = 105
 # environment
@@ -163,16 +163,13 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = phalyce
 # environment
- 
-make: *** No rule to make target 'all'.  Stop.
-
 GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1183
+SYSTEMD_EXEC_PID = 1231
 # environment
 DISPLAY = :0
 # environment
@@ -188,15 +185,15 @@ SNAP_DATA = /var/snap/code/105
 # environment
 SNAP_CONTEXT = VXFC1CF_oMgnlQDfFtSuLRWtjArA6Hj6gZRyf64-9Bl-C8vTFod-
 # environment
-MANAGERPID = 1005
+MANAGERPID = 1047
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3869
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4712
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/phalyce/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:29317
+JOURNAL_STREAM = 8:29338
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -246,9 +243,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2050, inode 8522032): 8 files, no impossibilities.
+# . (device 2050, inode 8522032): 10 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -282,6 +279,9 @@ makefile:
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 
 # Not a target:
 GNUmakefile:
@@ -298,12 +298,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 140 B / avg = 8 B
-# current buf: size = 8162 B / used = 140 B / count = 16 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 156 B / avg = 8 B
+# current buf: size = 8162 B / used = 156 B / count = 18 / avg = 8 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Fri Aug 26 22:13:24 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
+# Finished Make data base on Sun Aug 28 13:26:08 2022
 
  

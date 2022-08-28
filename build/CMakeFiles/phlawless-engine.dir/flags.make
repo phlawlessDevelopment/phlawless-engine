@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/entites
+CXX_INCLUDES = -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene -I/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components
 
 CXX_FLAGS = -g
 

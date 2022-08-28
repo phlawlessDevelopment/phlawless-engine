@@ -174,6 +174,150 @@ phlawless-engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/build
 .PHONY : phlawless-engine/fast
 
+include/imgui-SFML.o: include/imgui-SFML.cpp.o
+.PHONY : include/imgui-SFML.o
+
+# target to build an object file
+include/imgui-SFML.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o
+.PHONY : include/imgui-SFML.cpp.o
+
+include/imgui-SFML.i: include/imgui-SFML.cpp.i
+.PHONY : include/imgui-SFML.i
+
+# target to preprocess a source file
+include/imgui-SFML.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.i
+.PHONY : include/imgui-SFML.cpp.i
+
+include/imgui-SFML.s: include/imgui-SFML.cpp.s
+.PHONY : include/imgui-SFML.s
+
+# target to generate assembly for a file
+include/imgui-SFML.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.s
+.PHONY : include/imgui-SFML.cpp.s
+
+include/imgui.o: include/imgui.cpp.o
+.PHONY : include/imgui.o
+
+# target to build an object file
+include/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o
+.PHONY : include/imgui.cpp.o
+
+include/imgui.i: include/imgui.cpp.i
+.PHONY : include/imgui.i
+
+# target to preprocess a source file
+include/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui.cpp.i
+.PHONY : include/imgui.cpp.i
+
+include/imgui.s: include/imgui.cpp.s
+.PHONY : include/imgui.s
+
+# target to generate assembly for a file
+include/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui.cpp.s
+.PHONY : include/imgui.cpp.s
+
+include/imgui_demo.o: include/imgui_demo.cpp.o
+.PHONY : include/imgui_demo.o
+
+# target to build an object file
+include/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o
+.PHONY : include/imgui_demo.cpp.o
+
+include/imgui_demo.i: include/imgui_demo.cpp.i
+.PHONY : include/imgui_demo.i
+
+# target to preprocess a source file
+include/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.i
+.PHONY : include/imgui_demo.cpp.i
+
+include/imgui_demo.s: include/imgui_demo.cpp.s
+.PHONY : include/imgui_demo.s
+
+# target to generate assembly for a file
+include/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.s
+.PHONY : include/imgui_demo.cpp.s
+
+include/imgui_draw.o: include/imgui_draw.cpp.o
+.PHONY : include/imgui_draw.o
+
+# target to build an object file
+include/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o
+.PHONY : include/imgui_draw.cpp.o
+
+include/imgui_draw.i: include/imgui_draw.cpp.i
+.PHONY : include/imgui_draw.i
+
+# target to preprocess a source file
+include/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.i
+.PHONY : include/imgui_draw.cpp.i
+
+include/imgui_draw.s: include/imgui_draw.cpp.s
+.PHONY : include/imgui_draw.s
+
+# target to generate assembly for a file
+include/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.s
+.PHONY : include/imgui_draw.cpp.s
+
+include/imgui_tables.o: include/imgui_tables.cpp.o
+.PHONY : include/imgui_tables.o
+
+# target to build an object file
+include/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o
+.PHONY : include/imgui_tables.cpp.o
+
+include/imgui_tables.i: include/imgui_tables.cpp.i
+.PHONY : include/imgui_tables.i
+
+# target to preprocess a source file
+include/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.i
+.PHONY : include/imgui_tables.cpp.i
+
+include/imgui_tables.s: include/imgui_tables.cpp.s
+.PHONY : include/imgui_tables.s
+
+# target to generate assembly for a file
+include/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.s
+.PHONY : include/imgui_tables.cpp.s
+
+include/imgui_widgets.o: include/imgui_widgets.cpp.o
+.PHONY : include/imgui_widgets.o
+
+# target to build an object file
+include/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o
+.PHONY : include/imgui_widgets.cpp.o
+
+include/imgui_widgets.i: include/imgui_widgets.cpp.i
+.PHONY : include/imgui_widgets.i
+
+# target to preprocess a source file
+include/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.i
+.PHONY : include/imgui_widgets.cpp.i
+
+include/imgui_widgets.s: include/imgui_widgets.cpp.s
+.PHONY : include/imgui_widgets.s
+
+# target to generate assembly for a file
+include/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.s
+.PHONY : include/imgui_widgets.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -198,53 +342,125 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-source/core/Engine.o: source/core/Engine.cpp.o
-.PHONY : source/core/Engine.o
+source/components/Component.o: source/components/Component.cpp.o
+.PHONY : source/components/Component.o
 
 # target to build an object file
-source/core/Engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/core/Engine.cpp.o
-.PHONY : source/core/Engine.cpp.o
+source/components/Component.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o
+.PHONY : source/components/Component.cpp.o
 
-source/core/Engine.i: source/core/Engine.cpp.i
-.PHONY : source/core/Engine.i
+source/components/Component.i: source/components/Component.cpp.i
+.PHONY : source/components/Component.i
 
 # target to preprocess a source file
-source/core/Engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/core/Engine.cpp.i
-.PHONY : source/core/Engine.cpp.i
+source/components/Component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.i
+.PHONY : source/components/Component.cpp.i
 
-source/core/Engine.s: source/core/Engine.cpp.s
-.PHONY : source/core/Engine.s
+source/components/Component.s: source/components/Component.cpp.s
+.PHONY : source/components/Component.s
 
 # target to generate assembly for a file
-source/core/Engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/core/Engine.cpp.s
-.PHONY : source/core/Engine.cpp.s
+source/components/Component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.s
+.PHONY : source/components/Component.cpp.s
 
-source/entities/Player.o: source/entities/Player.cpp.o
-.PHONY : source/entities/Player.o
+source/components/SpriteComponent.o: source/components/SpriteComponent.cpp.o
+.PHONY : source/components/SpriteComponent.o
 
 # target to build an object file
-source/entities/Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/entities/Player.cpp.o
-.PHONY : source/entities/Player.cpp.o
+source/components/SpriteComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o
+.PHONY : source/components/SpriteComponent.cpp.o
 
-source/entities/Player.i: source/entities/Player.cpp.i
-.PHONY : source/entities/Player.i
+source/components/SpriteComponent.i: source/components/SpriteComponent.cpp.i
+.PHONY : source/components/SpriteComponent.i
 
 # target to preprocess a source file
-source/entities/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/entities/Player.cpp.i
-.PHONY : source/entities/Player.cpp.i
+source/components/SpriteComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.i
+.PHONY : source/components/SpriteComponent.cpp.i
 
-source/entities/Player.s: source/entities/Player.cpp.s
-.PHONY : source/entities/Player.s
+source/components/SpriteComponent.s: source/components/SpriteComponent.cpp.s
+.PHONY : source/components/SpriteComponent.s
 
 # target to generate assembly for a file
-source/entities/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/entities/Player.cpp.s
-.PHONY : source/entities/Player.cpp.s
+source/components/SpriteComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.s
+.PHONY : source/components/SpriteComponent.cpp.s
+
+source/core/Editor.o: source/core/Editor.cpp.o
+.PHONY : source/core/Editor.o
+
+# target to build an object file
+source/core/Editor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o
+.PHONY : source/core/Editor.cpp.o
+
+source/core/Editor.i: source/core/Editor.cpp.i
+.PHONY : source/core/Editor.i
+
+# target to preprocess a source file
+source/core/Editor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.i
+.PHONY : source/core/Editor.cpp.i
+
+source/core/Editor.s: source/core/Editor.cpp.s
+.PHONY : source/core/Editor.s
+
+# target to generate assembly for a file
+source/core/Editor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.s
+.PHONY : source/core/Editor.cpp.s
+
+source/scene/Node.o: source/scene/Node.cpp.o
+.PHONY : source/scene/Node.o
+
+# target to build an object file
+source/scene/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o
+.PHONY : source/scene/Node.cpp.o
+
+source/scene/Node.i: source/scene/Node.cpp.i
+.PHONY : source/scene/Node.i
+
+# target to preprocess a source file
+source/scene/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.i
+.PHONY : source/scene/Node.cpp.i
+
+source/scene/Node.s: source/scene/Node.cpp.s
+.PHONY : source/scene/Node.s
+
+# target to generate assembly for a file
+source/scene/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.s
+.PHONY : source/scene/Node.cpp.s
+
+source/scene/Scene.o: source/scene/Scene.cpp.o
+.PHONY : source/scene/Scene.o
+
+# target to build an object file
+source/scene/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o
+.PHONY : source/scene/Scene.cpp.o
+
+source/scene/Scene.i: source/scene/Scene.cpp.i
+.PHONY : source/scene/Scene.i
+
+# target to preprocess a source file
+source/scene/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.i
+.PHONY : source/scene/Scene.cpp.i
+
+source/scene/Scene.s: source/scene/Scene.cpp.s
+.PHONY : source/scene/Scene.s
+
+# target to generate assembly for a file
+source/scene/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/phlawless-engine.dir/build.make CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.s
+.PHONY : source/scene/Scene.cpp.s
 
 # Help Target
 help:
@@ -259,15 +475,42 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... phlawless-engine"
+	@echo "... include/imgui-SFML.o"
+	@echo "... include/imgui-SFML.i"
+	@echo "... include/imgui-SFML.s"
+	@echo "... include/imgui.o"
+	@echo "... include/imgui.i"
+	@echo "... include/imgui.s"
+	@echo "... include/imgui_demo.o"
+	@echo "... include/imgui_demo.i"
+	@echo "... include/imgui_demo.s"
+	@echo "... include/imgui_draw.o"
+	@echo "... include/imgui_draw.i"
+	@echo "... include/imgui_draw.s"
+	@echo "... include/imgui_tables.o"
+	@echo "... include/imgui_tables.i"
+	@echo "... include/imgui_tables.s"
+	@echo "... include/imgui_widgets.o"
+	@echo "... include/imgui_widgets.i"
+	@echo "... include/imgui_widgets.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... source/core/Engine.o"
-	@echo "... source/core/Engine.i"
-	@echo "... source/core/Engine.s"
-	@echo "... source/entities/Player.o"
-	@echo "... source/entities/Player.i"
-	@echo "... source/entities/Player.s"
+	@echo "... source/components/Component.o"
+	@echo "... source/components/Component.i"
+	@echo "... source/components/Component.s"
+	@echo "... source/components/SpriteComponent.o"
+	@echo "... source/components/SpriteComponent.i"
+	@echo "... source/components/SpriteComponent.s"
+	@echo "... source/core/Editor.o"
+	@echo "... source/core/Editor.i"
+	@echo "... source/core/Editor.s"
+	@echo "... source/scene/Node.o"
+	@echo "... source/scene/Node.i"
+	@echo "... source/scene/Node.s"
+	@echo "... source/scene/Scene.o"
+	@echo "... source/scene/Scene.i"
+	@echo "... source/scene/Scene.s"
 .PHONY : help
 
 

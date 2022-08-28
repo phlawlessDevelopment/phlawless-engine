@@ -1,6 +1,8 @@
 #pragma once
-
 #include <SFML/Graphics.hpp>
+#include <imgui.h>
+#include "imgui-SFML.h"
+#include "../scene/Scene.h"
 
 struct Inputs{
     bool up;
@@ -8,28 +10,30 @@ struct Inputs{
     bool left;
     bool right;
 };
-class Engine
+
+class Editor
 {
 private:
     /* vars */
     sf::RenderWindow *window;
     sf::Event event;
     Inputs inputs;
+    // Scene scene;
     /* init functions */
     void initVariables();
     void initWindow();
 
     /* update functions */
     void pollEvents();
-    void updateEntities();
+    void updateScene();
 
 public:
     /* constructors */
-    Engine();
-    ~Engine();
+    Editor();
+    ~Editor();
 
     /* functions */
-    void update(float delta);
+    void update(sf::Clock deltaClock);
     void render();
 
     /* accessors */
