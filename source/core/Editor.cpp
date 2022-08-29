@@ -47,38 +47,23 @@ void Editor::pollEvents()
 void Editor::renderGUI()
 {
     ImGui::Begin("Scene");
-
-    std::shared_ptr<Node> node = this->scene.GetRoot();
-    std::vector<int> visited;
-    std::queue<std::shared_ptr<Node>> queue;
-    visited.push_back(node->id);
-    queue.push(node);
-
-    while (!queue.empty())
-    {
-        node = queue.front();
-        queue.pop();
-        // std::cout << node->name << std::endl;
-        if (ImGui::TreeNode(node->name))
-        {
-            for (auto &&child : node->GetChildren())
-            {
-                if (std::find(visited.begin(), visited.end(), child->id) == visited.end())
-                {
-                    visited.push_back(child->id);
-                    queue.push(child);
-                    if (ImGui::TreeNode(child->name))
-                    {
-                        ImGui::TreePop();
-                    }
-                }
-            }
-            ImGui::TreePop();
-        }
-    }
-
+    renderSceneTreeNode(this->scene.GetRoot());
     ImGui::End();
     ImGui::SFML::Render(*this->window);
+}
+void Editor::renderSceneTreeNode(std::shared_ptr<Node> node)
+{
+    bool expanded = ImGui::TreeNodeEx((void *)nullptr, ImGuiTreeNodeFlags_FramePadding, "", nullptr);
+    ImGui::SameLine();
+    ImGui::Selectable(node->name, false);
+    if (expanded)
+    {
+        for (auto &&child : node->GetChildren())
+        {
+            renderSceneTreeNode(child);
+        }
+        ImGui::TreePop();
+    }
 }
 void Editor::updateScene()
 {

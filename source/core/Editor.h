@@ -25,6 +25,7 @@ private:
     
     /* render functions */
     void renderGUI();
+    void renderSceneTreeNode(std::shared_ptr<Node> node);
 
 public:
     /* constructors */
