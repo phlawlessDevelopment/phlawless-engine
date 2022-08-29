@@ -1,8 +1,8 @@
 #include "Node.h"
 
-Node::Node()
+Node::Node(char *name)
 {
-    
+    this->name = name;
 }
 
 Node::~Node()
@@ -36,7 +36,13 @@ void Node::Render()
         child->Render();
     }
 }
+void Node::AddChild(std::shared_ptr<Node> node){
+    this->children.push_back(node);
+}
 /* acccesors  */
+std::vector<std::shared_ptr<Node>> Node::GetChildren(){
+    return children;
+}
 std::shared_ptr<Node> Node::GetParent()
 {
     return parent;

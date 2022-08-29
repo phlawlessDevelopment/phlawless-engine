@@ -25,8 +25,8 @@ Editor::~Editor()
 };
 
 void Editor::pollEvents()
-{   
-    while (this->window->pollEvent(this->event) )
+{
+    while (this->window->pollEvent(this->event))
     {
         ImGui::SFML::ProcessEvent(*this->window, this->event);
         switch (this->event.type)
@@ -40,22 +40,53 @@ void Editor::pollEvents()
             if (this->event.key.code == sf::Keyboard::Escape)
                 window->close();
 
-            /* keyboard input*/
-            if (this->event.key.code == sf::Keyboard::W)
-                this->inputs.up = true;
-            if (this->event.key.code == sf::Keyboard::A)
-                this->inputs.left = true;
-            if (this->event.key.code == sf::Keyboard::S)
-                this->inputs.down = true;
-            if (this->event.key.code == sf::Keyboard::D)
-                this->inputs.right = true;
             break;
         }
     }
 }
+void Editor::renderGUI()
+{
+    ImGui::Begin("Scene");
+
+    std::shared_ptr<Node> node = this->scene.GetRoot();
+    std::vector<std::shared_ptr<Node>> visited;
+    std::queue<std::shared_ptr<Node>> queue;
+    visited.push_back(node);
+    queue.push(node);
+
+    while (!queue.empty())
+    {
+
+        node = queue.front();
+        queue.pop();
+        std::cout << node->name << std::endl;
+        if (ImGui::TreeNode(node->name))
+        {
+            for (auto &&child : node->GetChildren())
+            {
+
+                if (std::find(visited.begin(), visited.end(), child) == visited.end())
+                {
+                    visited.push_back(child);
+                    queue.push(child);
+                    if (ImGui::TreeNode(child->name))
+                    {
+
+                        ImGui::TreePop();
+                    }
+                }
+            }
+            /* code */
+            ImGui::TreePop();
+        }
+    }
+
+    ImGui::End();
+    ImGui::SFML::Render(*this->window);
+}
 void Editor::updateScene()
 {
-    // this->scene.updateNodes();
+    this->scene.updateNodes();
 }
 
 /* public functions */
@@ -67,13 +98,10 @@ void Editor::update(sf::Clock deltaClock)
 }
 void Editor::render()
 {
-    ImGui::ShowDemoWindow();
-    ImGui::Begin("Hello, world!");
-    ImGui::Button("Look at this pretty button");
-    ImGui::End();
+
     this->window->clear();
-    ImGui::SFML::Render(*this->window);
-    // this->scene.renderNodes();
+    renderGUI();
+    this->scene.renderNodes();
     this->window->display();
 }
 

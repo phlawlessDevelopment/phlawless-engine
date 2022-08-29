@@ -1,15 +1,12 @@
 #pragma once
+#include <algorithm>
+#include <queue>
+#include <iostream>
 #include <SFML/Graphics.hpp>
 #include <imgui.h>
 #include "imgui-SFML.h"
 #include "../scene/Scene.h"
 
-struct Inputs{
-    bool up;
-    bool down;
-    bool left;
-    bool right;
-};
 
 class Editor
 {
@@ -17,8 +14,7 @@ private:
     /* vars */
     sf::RenderWindow *window;
     sf::Event event;
-    Inputs inputs;
-    // Scene scene;
+    Scene scene;
     /* init functions */
     void initVariables();
     void initWindow();
@@ -26,6 +22,9 @@ private:
     /* update functions */
     void pollEvents();
     void updateScene();
+    
+    /* render functions */
+    void renderGUI();
 
 public:
     /* constructors */

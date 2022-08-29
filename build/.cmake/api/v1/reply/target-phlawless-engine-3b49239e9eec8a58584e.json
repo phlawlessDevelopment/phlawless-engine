@@ -56,30 +56,30 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : " "
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build"
+					"path" : "/home/phalyce/dev/cpp_/phlawless-engine/build"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include"
+					"path" : "/home/phalyce/dev/cpp_/phlawless-engine/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core"
+					"path" : "/home/phalyce/dev/cpp_/phlawless-engine/source/core"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene"
+					"path" : "/home/phalyce/dev/cpp_/phlawless-engine/source/scene"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components"
+					"path" : "/home/phalyce/dev/cpp_/phlawless-engine/source/components"
 				}
 			],
 			"language" : "CXX",
@@ -120,25 +120,18 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLU.so",
 				"role" : "libraries"
 			},
