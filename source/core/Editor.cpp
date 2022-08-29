@@ -55,7 +55,7 @@ void Editor::renderSceneTreeNode(std::shared_ptr<Node> node)
 {
     bool expanded = ImGui::TreeNodeEx((void *)nullptr, ImGuiTreeNodeFlags_FramePadding, "", nullptr);
     ImGui::SameLine();
-    ImGui::Selectable(node->name, false);
+    ImGui::Selectable(node->name, this->selectedNode == node->id);
     if (expanded)
     {
         for (auto &&child : node->GetChildren())

@@ -15,6 +15,7 @@ private:
     sf::RenderWindow *window;
     sf::Event event;
     Scene scene;
+    int selectedNode = 1;
     /* init functions */
     void initVariables();
     void initWindow();
