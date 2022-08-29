@@ -49,34 +49,30 @@ void Editor::renderGUI()
     ImGui::Begin("Scene");
 
     std::shared_ptr<Node> node = this->scene.GetRoot();
-    std::vector<std::shared_ptr<Node>> visited;
+    std::vector<int> visited;
     std::queue<std::shared_ptr<Node>> queue;
-    visited.push_back(node);
+    visited.push_back(node->id);
     queue.push(node);
 
     while (!queue.empty())
     {
-
         node = queue.front();
         queue.pop();
-        std::cout << node->name << std::endl;
+        // std::cout << node->name << std::endl;
         if (ImGui::TreeNode(node->name))
         {
             for (auto &&child : node->GetChildren())
             {
-
-                if (std::find(visited.begin(), visited.end(), child) == visited.end())
+                if (std::find(visited.begin(), visited.end(), child->id) == visited.end())
                 {
-                    visited.push_back(child);
+                    visited.push_back(child->id);
                     queue.push(child);
                     if (ImGui::TreeNode(child->name))
                     {
-
                         ImGui::TreePop();
                     }
                 }
             }
-            /* code */
             ImGui::TreePop();
         }
     }

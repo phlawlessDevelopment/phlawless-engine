@@ -3,6 +3,7 @@
 Node::Node(char *name)
 {
     this->name = name;
+    this->id = ++nextId;
 }
 
 Node::~Node()

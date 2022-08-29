@@ -5,6 +5,10 @@
 
 class Node
 {
+
+protected:
+    inline static int nextId;
+
 private:
     std::vector<std::shared_ptr<Component>> components;
     std::vector<std::shared_ptr<Node>> children;
@@ -26,6 +30,8 @@ public:
     std::vector<std::shared_ptr<Node>> GetChildren();
     std::shared_ptr<Node> GetParent();
     std::shared_ptr<Node> GetNthChild(int n);
+
+    int id;
 
     Node(char *name);
     ~Node();
