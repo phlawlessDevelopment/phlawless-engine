@@ -11,8 +11,9 @@ public:
     ~Scene();
     
     void updateNodes();
-    void renderNodes();
+    void renderNodes(sf::RenderWindow* window);
 
     /* accessors */
     std::shared_ptr<Node> GetRoot();
+    std::shared_ptr<Node> GetNodeById(std::shared_ptr<Node> node , int id);
 };

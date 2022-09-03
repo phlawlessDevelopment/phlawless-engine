@@ -26,11 +26,25 @@ void Scene::updateNodes()
 {
     root->Update();
 }
-void Scene::renderNodes()
+void Scene::renderNodes(sf::RenderWindow* window)
 {
-    root->Render();
+    root->Render(window);
 }
 std::shared_ptr<Node> Scene::GetRoot()
 {
     return this->root;
+}
+std::shared_ptr<Node> Scene::GetNodeById(std::shared_ptr<Node> node, int id)
+{
+    if (node->id != id)
+    {
+        for (auto &&child : node->GetChildren())
+        {
+            node = GetNodeById(child, id);
+            if (node->id == id){
+                return node;
+            }
+        }
+    }
+    return node;
 }

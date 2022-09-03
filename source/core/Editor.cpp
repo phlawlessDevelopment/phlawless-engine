@@ -16,6 +16,7 @@ Editor::Editor()
 {
     this->initVariables();
     this->initWindow();
+    this->selectedNode = scene.GetNodeById(scene.GetRoot(), this->selectedNodeId);
 };
 
 Editor::~Editor()
@@ -49,13 +50,26 @@ void Editor::renderGUI()
     ImGui::Begin("Scene");
     renderSceneTreeNode(this->scene.GetRoot());
     ImGui::End();
+    renderDetails();
     ImGui::SFML::Render(*this->window);
+}
+void Editor::renderDetails()
+{
+    ImGui::Begin("Details");
+    ImGui::InputFloat2(this->selectedNode->name, &this->selectedNode->position.x);
+    ImGui::End();
 }
 void Editor::renderSceneTreeNode(std::shared_ptr<Node> node)
 {
+    ImGui::PushID(node->id);
     bool expanded = ImGui::TreeNodeEx((void *)nullptr, ImGuiTreeNodeFlags_FramePadding, "", nullptr);
     ImGui::SameLine();
-    ImGui::Selectable(node->name, this->selectedNode == node->id);
+    ImGui::Selectable(node->name, this->selectedNodeId == node->id);
+    if (ImGui::IsItemHovered() && ImGui::IsMouseClicked(0))
+    {
+        this->selectedNodeId = node->id;
+        selectedNode = scene.GetNodeById(scene.GetRoot(), this->selectedNodeId);
+    }
     if (expanded)
     {
         for (auto &&child : node->GetChildren())
@@ -64,6 +78,7 @@ void Editor::renderSceneTreeNode(std::shared_ptr<Node> node)
         }
         ImGui::TreePop();
     }
+    ImGui::PopID();
 }
 void Editor::updateScene()
 {
@@ -81,8 +96,8 @@ void Editor::render()
 {
 
     this->window->clear();
+    this->scene.renderNodes(this->window);
     renderGUI();
-    this->scene.renderNodes();
     this->window->display();
 }
 

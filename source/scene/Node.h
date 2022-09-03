@@ -13,6 +13,7 @@ private:
     std::vector<std::shared_ptr<Component>> components;
     std::vector<std::shared_ptr<Node>> children;
     std::shared_ptr<Node> parent;
+    sf::CircleShape positionGizmo;
 
 public:
     char *name;
@@ -23,7 +24,7 @@ public:
 
     void Init();
     void Update();
-    void Render();
+    void Render(sf::RenderWindow* window);
     void AddChild(std::shared_ptr<Node> node);
 
     /* acccesors  */

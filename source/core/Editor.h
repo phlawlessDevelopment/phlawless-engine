@@ -15,7 +15,8 @@ private:
     sf::RenderWindow *window;
     sf::Event event;
     Scene scene;
-    int selectedNode = 1;
+    int selectedNodeId = 1;
+    std::shared_ptr<Node> selectedNode;
     /* init functions */
     void initVariables();
     void initWindow();
@@ -27,7 +28,7 @@ private:
     /* render functions */
     void renderGUI();
     void renderSceneTreeNode(std::shared_ptr<Node> node);
-
+    void renderDetails();
 public:
     /* constructors */
     Editor();

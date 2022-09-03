@@ -6,14 +6,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 29 20:58:48 2022
+# Make data base, printed on Sat Sep  3 20:22:04 2022
 
 # Variables
 
-# environment
-TMUX_PANE = %0
-# environment
-AUTOSWITCH_VERSION = 3.6.0
 # environment
 GDK_BACKEND = x11
 # environment
@@ -27,7 +23,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_CWD = /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine
+VSCODE_CWD = /home/phalyce
 # default
 MAKE_COMMAND := make
 # environment
@@ -37,7 +33,7 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/106/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -47,23 +43,19 @@ PWD = /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
 XDG_DATA_DIRS = /usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/phalyce/dev/cpp/phlawless-engine
+OLDPWD = /home/phalyce
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-ALACRITTY_SOCKET = /run/user/1000/Alacritty-wayland-0-3951.sock
-# environment
-VSCODE_CODE_CACHE_PATH = /home/phalyce/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CODE_CACHE_PATH = /home/phalyce/.config/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.7MLPR1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.ROR3R1
 # default
 .LOADED := 
 # default
@@ -74,8 +66,6 @@ MAKEFLAGS = pqrR
 CURDIR := /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-ZSH_TMUX_TERM = screen-256color
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -85,13 +75,9 @@ SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
 # environment
-_ZSH_TMUX_FIXED_CONFIG = /home/phalyce/.oh-my-zsh/plugins/tmux/tmux.extra.conf
-# environment
 WAYLAND_DISPLAY = wayland-0
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-P9K_SSH = 0
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # makefile
@@ -101,17 +87,15 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-ZSH = /home/phalyce/.oh-my-zsh
-# environment
-VSCODE_PID = 4677
+VSCODE_PID = 10874
 # environment
 XDG_SESSION_TYPE = wayland
-# environment
-TMUX = /tmp/tmux-1000/default,3998,0
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/ph-lap:@/tmp/.ICE-unix/1164,unix/ph-lap:/tmp/.ICE-unix/1164
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/ph-lap:@/tmp/.ICE-unix/1153,unix/ph-lap:/tmp/.ICE-unix/1153
 # automatic
 *F = $(notdir $*)
 # environment
@@ -120,8 +104,6 @@ CHROME_DESKTOP = code-url-handler.desktop
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
-# environment
-P9K_TTY = old
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # default
@@ -137,17 +119,15 @@ XMODIFIERS = @im=ibus
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-SHLVL = 2
+SHLVL = 0
 # environment
 MAKELEVEL := 0
-# environment
-ZSH_TMUX_CONFIG = /home/phalyce/.tmux.conf
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = VXFC1CF_oMgnlQDfFtSuLRWtjArA6Hj6gZRyf64-9Bl-C8vTFod-
 # environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/phalyce/.fzf/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -157,35 +137,23 @@ LANGUAGE = en_GB:en
 # environment
 SNAP_USER_COMMON = /home/phalyce/snap/code/common
 # environment
-SNAP = /snap/code/105
+SNAP = /snap/code/106
 # environment
-INVOCATION_ID = ee288d1f6ee3422ea5bd2c4ecda6a841
+INVOCATION_ID = 79a57908c0d24a318cc8f5eadd72c78b
 # environment
-SNAP_REVISION = 105
+SNAP_REVISION = 106
 # environment
 SNAP_REAL_HOME = /home/phalyce
 # environment
-AUTOSWITCH_FILE = .venv
-# environment
 USERNAME = phalyce
-# environment
-TERM_PROGRAM = tmux
 # environment
 GNOME_SETUP_DISPLAY = :1
 # automatic
 ?F = $(notdir $?)
 # environment
-ZSH_TMUX_AUTOSTARTED = true
-# environment
 XDG_CURRENT_DESKTOP = Unity
-# environment
-ALACRITTY_LOG = /tmp/Alacritty-3951.log
-# environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # automatic
 +F = $(notdir $+)
-# environment
-LESS = -R
 # environment
 DESKTOP_SESSION = ubuntu
 # environment
@@ -195,13 +163,13 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = phalyce
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/com.alacritty.Alacritty.desktop
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1200
+SYSTEMD_EXEC_PID = 1188
 # environment
 DISPLAY = :0
 # environment
@@ -211,25 +179,19 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-DISABLE_WAYLAND = 1
-# environment
-SNAP_DATA = /var/snap/code/105
+SNAP_DATA = /var/snap/code/106
 # environment
 SNAP_CONTEXT = VXFC1CF_oMgnlQDfFtSuLRWtjArA6Hj6gZRyf64-9Bl-C8vTFod-
 # environment
-MANAGERPID = 1025
+MANAGERPID = 1007
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3951
-# environment
-PAGER = less
+GIO_LAUNCHED_DESKTOP_FILE_PID = 10834
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-COLORTERM = truecolor
-# environment
 GDK_PIXBUF_MODULE_FILE = /home/phalyce/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-JOURNAL_STREAM = 8:30051
+JOURNAL_STREAM = 8:29164
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -241,23 +203,19 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-177c1109-1.70.2-main.sock
-# environment
-TERM = screen-256color
+VSCODE_IPC_HOOK = /run/user/1000/vscode-177c1109-1.71.0-main.sock
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/106/usr/share/glib-2.0/schemas
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = e4503b30
+SNAP_VERSION = 784b0177
 # default
 SUFFIXES := 
-# environment
-_P9K_TTY = /dev/pts/1
 # environment
 VSCODE_CLI = 1
 # environment
@@ -267,26 +225,21 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/phalyce/snap/code/105
+SNAP_USER_DATA = /home/phalyce/snap/code/106
 # environment
 XDG_MENU_PREFIX = gnome-
-# environment
-TERM_PROGRAM_VERSION = 3.2a
 # environment
 GDMSESSION = ubuntu
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=133/1024=13%, Rehash=0, Collisions=8/160=5%
+# Load=111/1024=11%, Rehash=0, Collisions=3/138=2%
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
 
 # Directories
-
- 
-make: *** No rule to make target 'all'.  Stop.
 
 # . (device 2050, inode 8522032): 9 files, no impossibilities.
 
@@ -345,7 +298,10 @@ GNUmakefile:
 
 # strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 # Load=17/8192=0%, Rehash=0, Collisions=0/20=0%
-# Finished Make data base on Mon Aug 29 20:58:48 2022
+# Finished Make data base on Sat Sep  3 20:22:04 2022
 
  

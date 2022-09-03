@@ -4,6 +4,7 @@ Node::Node(char *name)
 {
     this->name = name;
     this->id = ++nextId;
+    this->positionGizmo = sf::CircleShape(10.0f);
 }
 
 Node::~Node()
@@ -19,7 +20,7 @@ void Node::Init()
 void Node::Update()
 {
     /* update  logic  */
-
+    this->positionGizmo.setPosition(this->position);
     /* update children  */
     for (auto &&child : this->children)
     {
@@ -27,14 +28,14 @@ void Node::Update()
     }
 }
 
-void Node::Render()
+void Node::Render(sf::RenderWindow* window)
 {
     /* render  */
-
+    window->draw(this->positionGizmo);
     /* render children  */
     for (auto &&child : this->children)
     {
-        child->Render();
+        child->Render(window);
     }
 }
 void Node::AddChild(std::shared_ptr<Node> node){

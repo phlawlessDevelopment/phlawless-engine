@@ -73,169 +73,169 @@ CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o: CMakeFiles/phlawless-e
 CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o: ../include/imgui-SFML.cpp
 CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML.cpp
 
 CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML.cpp > CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML.cpp > CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.i
 
 CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui-SFML.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui-SFML.cpp.s
 
 CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o: ../include/imgui.cpp
 CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui.cpp
 
 CMakeFiles/phlawless-engine.dir/include/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/include/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui.cpp > CMakeFiles/phlawless-engine.dir/include/imgui.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui.cpp > CMakeFiles/phlawless-engine.dir/include/imgui.cpp.i
 
 CMakeFiles/phlawless-engine.dir/include/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/include/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui.cpp.s
 
 CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o: ../include/imgui_demo.cpp
 CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_demo.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_demo.cpp
 
 CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_demo.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_demo.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.i
 
 CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_demo.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_demo.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_demo.cpp.s
 
 CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o: ../include/imgui_draw.cpp
 CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_draw.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_draw.cpp
 
 CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_draw.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_draw.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.i
 
 CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_draw.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_draw.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_draw.cpp.s
 
 CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o: ../include/imgui_tables.cpp
 CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_tables.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_tables.cpp
 
 CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_tables.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_tables.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.i
 
 CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_tables.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_tables.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_tables.cpp.s
 
 CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o: ../include/imgui_widgets.cpp
 CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_widgets.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o -MF CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o.d -o CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_widgets.cpp
 
 CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_widgets.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_widgets.cpp > CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.i
 
 CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_widgets.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/include/imgui_widgets.cpp -o CMakeFiles/phlawless-engine.dir/include/imgui_widgets.cpp.s
 
 CMakeFiles/phlawless-engine.dir/main.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/main.cpp.o: ../main.cpp
 CMakeFiles/phlawless-engine.dir/main.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/phlawless-engine.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/main.cpp.o -MF CMakeFiles/phlawless-engine.dir/main.cpp.o.d -o CMakeFiles/phlawless-engine.dir/main.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/main.cpp.o -MF CMakeFiles/phlawless-engine.dir/main.cpp.o.d -o CMakeFiles/phlawless-engine.dir/main.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp
 
 CMakeFiles/phlawless-engine.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp > CMakeFiles/phlawless-engine.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp > CMakeFiles/phlawless-engine.dir/main.cpp.i
 
 CMakeFiles/phlawless-engine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp -o CMakeFiles/phlawless-engine.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/main.cpp -o CMakeFiles/phlawless-engine.dir/main.cpp.s
 
 CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o: ../source/core/Editor.cpp
 CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Editor.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Editor.cpp
 
 CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Editor.cpp > CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Editor.cpp > CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.i
 
 CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Editor.cpp -o CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/core/Editor.cpp -o CMakeFiles/phlawless-engine.dir/source/core/Editor.cpp.s
 
 CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o: ../source/scene/Node.cpp
 CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Node.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Node.cpp
 
 CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Node.cpp > CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Node.cpp > CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.i
 
 CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Node.cpp -o CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Node.cpp -o CMakeFiles/phlawless-engine.dir/source/scene/Node.cpp.s
 
 CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o: ../source/scene/Scene.cpp
 CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Scene.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Scene.cpp
 
 CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Scene.cpp > CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Scene.cpp > CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.i
 
 CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Scene.cpp -o CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/scene/Scene.cpp -o CMakeFiles/phlawless-engine.dir/source/scene/Scene.cpp.s
 
 CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o: ../source/components/Component.cpp
 CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/Component.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/Component.cpp
 
 CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/Component.cpp > CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/Component.cpp > CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.i
 
 CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/Component.cpp -o CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/Component.cpp -o CMakeFiles/phlawless-engine.dir/source/components/Component.cpp.s
 
 CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o: CMakeFiles/phlawless-engine.dir/flags.make
 CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o: ../source/components/SpriteComponent.cpp
 CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o: CMakeFiles/phlawless-engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/SpriteComponent.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o -MF CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o.d -o CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.o -c /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/SpriteComponent.cpp
 
 CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/SpriteComponent.cpp > CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/SpriteComponent.cpp > CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.i
 
 CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/SpriteComponent.cpp -o CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/phalyce/dev/cpp/phlawless-engine/phlawless-engine/source/components/SpriteComponent.cpp -o CMakeFiles/phlawless-engine.dir/source/components/SpriteComponent.cpp.s
 
 # Object files for target phlawless-engine
 phlawless__engine_OBJECTS = \
